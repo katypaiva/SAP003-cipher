@@ -23,11 +23,8 @@ h1{
     font-weight: 600;
     font-size: 30px;
     line-height: 45px;
-
-/* identical to box height */
-letter-spacing: 0.05em;
-
-color: #424242;
+    letter-spacing: 0.05em;
+    color: #424242;
 }
 
 #boxTwo{
@@ -67,14 +64,14 @@ color: #424242;
     position: absolute;
     width: 132px;
     height: 40px;
-    left: 410px;
+    left: 438px;
     top: 150px;
     background: #F8ABC7;
     border-radius: 3px;
-    box-shadow: none;
+    border: none;
     font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
@@ -175,14 +172,14 @@ color: #424242;
     position: absolute;
     width: 132px;
     height: 40px;
-    left: 410px;
+    left: 438px;
     top: 150px;
     background: #F8ABC7;
     border-radius: 3px;
-    box-shadow: none;
+    border: none;
     font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
