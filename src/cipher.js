@@ -20,16 +20,16 @@ function encode(offset,str) {
 
     
 function decode(str, offset) {
-    let result2 = "";
+    let resultTwo = "";
     for (let i = 0; i < str.length; i++) {
         if (str.charCodeAt(i) >= 65 && str.charCodeAt(i) <= 90) {
-         result2 += String.fromCharCode(((str.charCodeAt(i) - 90) - (offset % 26+26)) % 26 + 90);
+         resultTwo += String.fromCharCode(((str.charCodeAt(i) - 90) - (offset % 26+26)) % 26 + 90);
         } else if (str.charCodeAt(i) >= 97 && str.charCodeAt(i) <= 122) {
-            result2 += String.fromCharCode(((str.charCodeAt(i) - 122) - (offset % 26+26)) % 26 + 122);
+            resultTwo += String.fromCharCode(((str.charCodeAt(i) - 122) - (offset % 26+26)) % 26 + 122);
         } else {
-            result2 += str[i];
+            resultTwo += str[i];
         }
     }
-    return result2;
+    return resultTwo;
 }
 

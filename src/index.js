@@ -1,20 +1,20 @@
-function clickOne(event){
+const clickOne = document.getElementById("btn-codificar");
+const clickTwo = document.getElementById("btn-decodificar");
+
+clickOne.addEventListener("click", (event) => {
     event.preventDefault();
-    let encore= document.getElementById("codificar").value;
-    let encoreKey = parseInt(document.querySelector(".key").value);
-    let teste = window.cipher.encode(encoreKey, encore);
+    let encodeValue= document.getElementById("codificar").value;
+    let encodeKey = parseInt(document.querySelector(".key").value);
+    let encodeResult = window.cipher.encode(encodeKey, encodeValue);
 
-    document.getElementById('firstMensenger').innerHTML = teste;
-}
+    document.getElementById('firstMensenger').innerHTML = encodeResult;
+});
 
-function clickTwo(event){
+clickTwo.addEventListener("click", (event) => {
     event.preventDefault();
-    let encore2= document.getElementById("decodificar").value;
-    let encoreKey2 = parseInt(document.querySelector(".keyTwo").value);
-    let teste2 = window.cipher.decode(encore2, encoreKey2);
+    let decodeValue = document.getElementById("decodificar").value;
+    let decodeKey = parseInt(document.querySelector(".keyTwo").value);
+    let decodeResult = window.cipher.decode(decodeValue, decodeKey);
 
-    document.getElementById('secondMensenger').innerHTML = teste2;
-}
-
-// estudar forçkhbh
-//estudar manipulação de string
+    document.getElementById('secondMensenger').innerHTML = decodeResult;
+});

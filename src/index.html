@@ -3,33 +3,41 @@
 
 <head>
   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <header></header><br>
+  
+  <div>
+    <header></header>
+  </div>
+  <div>
+    <h1>Codifique e decodifique a sua fofoca</h1>
+  </div>
 
   <fieldset>
     <form action="" id="boxTwo">
-      <h2>Codifique aqui a sua fofoca:</h2><br>
+      <h3 id="one">Seu Texto</h3>
       <input type="text" id="codificar" value=""><br>
-      <input type="number" class="key" value="">
-      <button id="btn-codificar" onclick="clickOne(event)">enviar</button><br><br>
+      <h3 id="two">Chave</h3>
+      <input type="number" class="key" value=""><br>
+      <button id="btn-codificar">enviar</button><br>
+      <h3 id="three">Resultado</h3>
+      <p id="firstMensenger"></p>
     </form>
-    <p id="firstMensenger"></p>
 
-  </fieldset><br><br>
-
-  <fieldset>
     <form action="" id="boxThree">
-      <h2>Decodifique aqui a sua fofoca:</h2><br>
+      <h3 id="four">Seu código</h3>
       <input type="text" id="decodificar" value=""><br>
+      <h3 id="five">Chave</h3>
       <input type="number" class="keyTwo" value="">
-      <button id="btn-decodificar" onclick="clickTwo(event)">enviar</button>
+      <button id="btn-decodificar">enviar</button>
+      <h3 id="six">Resultado</h3>
       <p id="secondMensenger"></p>
     </form>
-  </fieldset><br><br><br>
+  </fieldset><br><br><br><br>
 
   <footer>
     <p>você não pode sentar com a gente</p>
@@ -37,6 +45,7 @@
 
   <script src="cipher.js"></script>
   <script src="index.js"></script>
+
 </body>
 
 </html>

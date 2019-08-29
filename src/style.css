@@ -1,63 +1,268 @@
 body{
-    background-image: url(https://i.pinimg.com/736x/1b/df/ff/1bdfff6df2529103c5b747d771f4a090.jpg);
+    background: #E5E5E5;
     background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
 }
 
 header{
-    background-image: url(https://data.whicdn.com/images/43905204/original.gif);
-    background-size: cover;
-    min-height: 250px;
-    background-position: 50%;
-    position: relative;
-    left: 25%;
-    width: 50%;
-    height: -50%;
+    background-image: url(https://66.media.tumblr.com/5c5b619d0f127555ae710c7d400e6434/tumblr_nlyk4ce7jO1tgxg44o6_1280.png);
+    position: absolute;
+    width: 1245px;
+    height: 400px;
+    left: 20px;
+    top: 50px;
+    border-radius: 15px;
+}
+
+h1{
+    position: absolute;
+    top:500px;
+    left: 335px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+/* identical to box height */
+letter-spacing: 0.05em;
+
+color: #424242;
 }
 
 #boxTwo{
-    position: relative;
-    left: 25%;
-    width: 50%;
-    height: -50%;
-    background-color: pink;
-    background-size: 26px;
+    position: absolute;
+    width: 598px;
+    height: 304px;
+    left: 45px;
+    top: 65px;
+    background: #FFFFFF;
+    border-radius: 15px;
+}
+
+#codificar{
+    position: absolute;
+    width: 550px;
+    height: 40px;
+    left: 22px;
+    top: 74px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.key{
+
+    position: absolute;
+    width: 141px;
+    height: 40px;
+    left: 22px;
+    top: 150px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+#btn-codificar{
+    position: absolute;
+    width: 132px;
+    height: 40px;
+    left: 410px;
+    top: 150px;
+    background: #F8ABC7;
+    border-radius: 3px;
+    box-shadow: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#firstMensenger{
+    position: absolute;
+    width: 500px;
+    height: 24px;
+    left: 22px;
+    top: 232px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(131, 127, 127);
+}
+
+#one{
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 22px;
+    top: 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+#two{
+    position: absolute;
+    width: 81px;
+    height: 24px;
+    left: 22px;
+    top: 110px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+#three{
+    position: absolute;
+    width: 81px;
+    height: 24px;
+    left: 22px;
+    top: 192px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
 }
 
 #boxThree{
+    position: absolute;
+    width: 590px;
+    height: 304px;
+    left: 670px;
+    top: 65px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    
+}
+#decodificar{
+    position: absolute;
+    width: 550px;
+    height: 40px;
+    left: 22px;
+    top: 74px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.keyTwo{
+    position: absolute;
+    width: 141px;
+    height: 40px;
+    left: 22px;
+    top: 150px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+#btn-decodificar{
+    position: absolute;
+    width: 132px;
+    height: 40px;
+    left: 410px;
+    top: 150px;
+    background: #F8ABC7;
+    border-radius: 3px;
+    box-shadow: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
-    position: relative;
-    left: 25%;
-    width: 50%;
-    height: -50%;
-    background-color: pink;
-    background-size: 26px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+#secondMensenger{
+    position: absolute;
+    width: 500px;
+    height: 24px;
+    left: 22px;
+    top: 232px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(131, 127, 127);
+}
+
+#four{
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 22px;
+    top: 30px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+#five{
+    position: absolute;
+    width: 81px;
+    height: 24px;
+    left: 22px;
+    top: 110px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+#six{
+    position: absolute;
+    width: 81px;
+    height: 24px;
+    left: 22px;
+    top: 192px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
 }
 
 fieldset{
-    font-size: 16px;
-    position: relative;
-    left: 25%;
-    width: 50%;
-    height: -50%;
-    background-color: pink;
-    background-size: 26px;
+    position: absolute;
+    width: 1267px;
+    height: 432px;
+    left: -10px;
+    top: 600px;
+    background: #FFD9D9;
+    box-shadow: none;
+    border: 0px;
 }
-
-
-
-h2{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgb(233, 17, 53);
-    text-align: center;
-    font-size: 22px;
-}
- p{
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     font-size: 16px;
-     text-align: center;
-     color: rgb(241, 44, 77);
- }
 
  footer{
-     background-color: pink;
+     background-color:#FFD9D9;
+     text-align: center;
+     color: #000000;
+     position: relative;
+     height: 22px;
+     top: 1000px;
  }
