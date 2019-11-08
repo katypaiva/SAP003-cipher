@@ -1,20 +1,18 @@
-const clickOne = document.getElementById("btn-codificar");
-const clickTwo = document.getElementById("btn-decodificar");
+const clickOne = document.querySelector(".encode-btn");
+const clickTwo = document.querySelector(".decode-btn");
 
 clickOne.addEventListener("click", (event) => {
     event.preventDefault();
-    let encodeValue= document.getElementById("codificar").value;
+    let encodeValue= document.querySelector(".encode").value;
     let encodeKey = parseInt(document.querySelector(".key").value);
     let encodeResult = window.cipher.encode(encodeKey, encodeValue);
-
-    document.getElementById('firstMensenger').innerHTML = encodeResult;
+    document.querySelector('.first-mensenger').innerHTML = encodeResult;
 });
 
 clickTwo.addEventListener("click", (event) => {
     event.preventDefault();
-    let decodeValue = document.getElementById("decodificar").value;
-    let decodeKey = parseInt(document.querySelector(".keyTwo").value);
+    let decodeValue = document.querySelector(".decode").value;
+    let decodeKey = parseInt(document.querySelector(".key-two").value);
     let decodeResult = window.cipher.decode(decodeValue, decodeKey);
-
-    document.getElementById('secondMensenger').innerHTML = decodeResult;
+    document.querySelector('.second-mensenger').innerHTML = decodeResult;
 });

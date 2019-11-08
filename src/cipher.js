@@ -3,7 +3,7 @@ window.cipher = {
     decode: decode
 };
 
-function encode(offset,str) {
+function encode(offset, str) {
     let result = "";
     for (let i = 0; i < str.length; i++) {
         if (str.charCodeAt(i) >= 65 && str.charCodeAt(i) <= 90) {
