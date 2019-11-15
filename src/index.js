@@ -6,7 +6,7 @@ clickOne.addEventListener("click", (event) => {
     const encodeValue= document.querySelector(".encode").value;
     const encodeKey = parseInt(document.querySelector(".key").value);
     const encodeResult = window.cipher.encode(encodeKey, encodeValue);
-    document.querySelector('.first-mensenger').innerHTML = encodeResult;
+    document.querySelector('.encode-result').innerHTML = encodeResult;
 });
 
 clickTwo.addEventListener("click", (event) => {
@@ -14,5 +14,5 @@ clickTwo.addEventListener("click", (event) => {
     const decodeValue = document.querySelector(".decode").value;
     const decodeKey = parseInt(document.querySelector(".key-two").value);
     const decodeResult = window.cipher.decode(decodeValue, decodeKey);
-    document.querySelector('.second-mensenger').innerHTML = decodeResult;
+    document.querySelector('.decode-result').innerHTML = decodeResult;
 });
