@@ -1,5 +1,174 @@
 body {
-    background: #009966;
+    display: flex;
+    flex-direction: column;
+    background: #E5E5E5;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: url(https://66.media.tumblr.com/5c5b619d0f127555ae710c7d400e6434/tumblr_nlyk4ce7jO1tgxg44o6_1280.png);
+    height: 350px;
+    background-size: cover;
+    margin: 18px;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px;
+    color: #424242;
+    margin-top: 40px;
+    text-align: center;
+}
+
+fieldset {
+
+    background: #FFD9D9;
+    box-shadow: none;
+    border: 0px;
+    margin-bottom: 24px;
+    padding: 16px;
+}
+
+.encode-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    flex-direction: column;
+    width: 70%;
+    height: 324px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 5%;
+}
+
+.decode-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 324px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 8px;
+    margin-top: 4px;
+    margin-left: 15%;
+}
+.legend-font {
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.font {
+    font-family: Poppins;
+    font-style: normal;
+    letter-spacing: 0.05em;
+}
+
+.input-style {
+    margin-top: 5px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+
+.input-style:focus {
+    border: 1px solid #F8ABC7;
+    outline: none;
+}
+
+.encode-legend {
+    margin-top: 16px;
+}
+
+.encode {
+    width: 100%;
+    height: 40px;
+
+}
+
+.key-legend {
+    margin-top: 16px;
+    margin-bottom: 0%;
+}
+
+.key {
+    width: 25%;
+    height: 40px;
+}
+
+.btn-style {
+    width: 132px;
+    height: 40px;
+    margin-top: 16px;
+    background: #F8ABC7;
+    border-radius: 3px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.result-legend {
+    margin-top: 8px;
+    margin-bottom: 0%;
+}
+
+.encode-result {
+    height: 24px;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(131, 127, 127);
+}
+.decode-legend {
+    margin-top: 16px;
+}
+
+.decode {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+.decode-key-legend {
+    margin-top: 16px;
+    margin-bottom: 0%;
+}
+
+.key-two {
+    width: 25%;
+    height: 40px;
+}
+
+.result-legend-two {
+    margin-top: 16px;
+}
+
+.decode-result{
+    height: 24px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    font-size: 18px;
+    line-height: 24px;
+    color: rgb(131, 127, 127);
+}
+
+footer {
+    background-color:#FFD9D9;
+    text-align: center;
+    color: #000000;
+    height: 40px;
 }
 
 @media only screen and (max-width: 900px) {
